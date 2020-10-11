@@ -1,0 +1,104 @@
+
+.recent {
+	display: inline-block;
+	color: #ff1b6f;
+	margin: 50px 50px;
+}
+
+.fake-video, .fake-video-img {
+	width: 100%;
+}
+.content {
+	margin: 0px auto;
+	max-width: 1200px;
+}
+
+.title-kivsh, .title-vapulus {
+	display: inline-block;
+	width: 37%;
+	font-weight: bold;
+	font-size: 45px;
+	margin: 0px;
+	position: absolute;
+	top: 50px;
+	z-index: -1;
+}
+.content-container {
+	position: relative;
+}
+
+#Kivsh {
+	display: block;
+	font-weight: normal;
+	font-size: 15px;
+	margin: 30px;
+}
+
+.first-row-item, .sec-row-item {
+	display: block;
+	height: 900px;
+	position: relative;
+	width: 100%;
+	margin: 100px 0px;
+
+}
+
+.Kivsh-image {
+	width: 45%;
+	height: 45%;
+	margin: 10px 0px;
+	position: absolute;
+	right: 1px;
+	transform: translateZ(-10px);
+	z-index: -1;
+}
+
+.recent {
+	font-size: 20px;
+}
+
+.vapulus-content {
+	display: inline-block;
+	width: 35%;
+	position: absolute;
+	top: 300px;
+	right: 1px;
+	z-index: -1;
+}
+
+img[src="519.jpg"], img[src="book.jpg"], img[src="Celentano.jpg"], img[src="Klip@1x.jpg"] {
+	position: absolute;
+	left: 1px;
+	z-index: -1;
+}
+
+.title-vapulus {
+	right: -15px;
+	z-index: -1;
+}
+
+.case {
+	position: absolute;
+	top: 430px;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sec-row-item .case {
+	right: 320px;
+	top: 470px;
+}
+
+.go-to-cont {
+	top: 350px;
+}
+
+#go-to-case {
+	position: absolute;
+	top: 550px;
+}
+
+.celentano {
+	top: 10px;
+}
